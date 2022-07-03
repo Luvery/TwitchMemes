@@ -1,0 +1,29 @@
+.picture{
+    max-width: 87vw;
+    max-height: 180vh;
+    border-radius: 4%;
+}
+
+.app-link {
+    color: #61dafb;
+    text-decoration: none;
+
+  }
+
+.app-link:hover{
+      color:white;
+  }
+
+.card{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  border-color:rgb(231, 111, 111);
+  position: relative;
+
+}
+/* .card-body{
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  } */
