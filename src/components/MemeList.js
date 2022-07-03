@@ -26,13 +26,11 @@ class MemeList extends Component {
     return (
       <div className='container'>
         <div className='row'>
-          {memes
-            .map((printer) => (
-              <div key={printer} className='col'>
-                <Meme data={printer} />
-              </div>
-            ))
-            .sort((a, b) => a.props.children.props.data.price - b.props.children.props.data.price)}
+          {memes.map((printer) => (
+            <div key={printer} className='col'>
+              <Meme data={printer} />
+            </div>
+          ))}
         </div>
       </div>
     );
