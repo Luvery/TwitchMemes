@@ -1,7 +1,7 @@
 /* eslint-disable linebreak-style */
 import axios from 'axios';
 
-const MEMES_URL = '../onlylinks.txt';
+const MEMES_URL = process.env.PUBLIC_URL + '/onlylinks.txt';
 
 export const getMemes = async () =>
   // eslint-disable-next-line implicit-arrow-linebreak

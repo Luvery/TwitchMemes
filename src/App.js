@@ -7,6 +7,7 @@ function App() {
       <div className='App-header'>
         <h1>DH SC2 Masters 2022 Valencia</h1>
         <h3>Memes</h3>
+        <h4>Follow IndyStarCraft!</h4>
         <MemeList />
       </div>
     </div>
